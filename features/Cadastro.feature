@@ -3,6 +3,6 @@ Feature: Cadastro no site do Blazedemo
     Given que acesso o  site do Blazedemo
     And clico em home
     When clico em Register
-    And preencho os campos name, company, e-mail address, password, confirm password
+    And preencho os campos 'Tatiane','Iterasys','tatiane@iterasys.com.br','abc123','abc123'
     And clico no botao Register
     Then valido se o cadastro foi efetuado
